@@ -66,4 +66,36 @@ case 1:
 default:
     "2"
 }
+//paixu
+//var SZ:String[] =["1","2"]
+//shuzu
+
+var shuzu=[Int](count: 5, repeatedValue:0)
+var shuzu1=["1","2","3","4","5",]
+for (a,b) in shuzu1.enumerate(){
+    print("\(a)" ,"\(b)")
+    }
+
+print("\(shuzu1[1])","结束！")
+
+//数组排序
+var s:Int
+s=0
+/*
+var shuzu2=["2","3","6","1","7","9"]
+var h:Int,f:Int,g:Int
+for h=0;h<6;
+for var d=0;d<6;d++ {
+    
+    if shuzu2[s]<shuzu2[s+1]{
+        print("\(shuzu2[s])")
+        s=s+1;
+    }
+    
+}
+
+*/
+
+
+
 
