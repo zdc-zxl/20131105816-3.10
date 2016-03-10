@@ -8,5 +8,17 @@
 
 import Foundation
 
-print("Hello, World!")
 
+for var i in 1...10{
+    print("\(i),")
+}
+
+for var j=0;j<5;j++ {
+    print("j=\(j)");
+}
+
+var a=0
+while (a<5) {
+    print("a=\(a)");
+    a++
+}
