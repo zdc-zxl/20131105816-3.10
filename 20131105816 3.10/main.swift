@@ -79,23 +79,25 @@ for (a,b) in shuzu1.enumerate(){
 print("\(shuzu1[1])","结束！")
 
 //数组排序
-var s:Int
-s=0
-/*
-var shuzu2=["2","3","6","1","7","9"]
-var h:Int,f:Int,g:Int
-for h=0;h<6;
-for var d=0;d<6;d++ {
-    
-    if shuzu2[s]<shuzu2[s+1]{
-        print("\(shuzu2[s])")
-        s=s+1;
-    }
-    
+var setA: Set=[1,2,3,4,5]
+for number in setA{
+    print(number)
 }
-
-*/
-
-
-
+//无序输出
+for number in setA.sort(){
+    print(number)
+}
+//有序输出
+let vowel = [1,2,3,4,5]
+for char in vowel{
+    print(vowel)
+}
+let vowel1=["a","b","c","d"]
+for char in vowel1{
+    print(char)
+}
+for _ in 1...10{
+    print("*", terminator:" ")
+    //terminator 取消换行，“”中间加空格每次输出一个空格
+}
 
